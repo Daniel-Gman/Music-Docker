@@ -1,4 +1,4 @@
-<div>
+<div class="card">
     <div>
         <p>
             <?php
@@ -10,7 +10,7 @@
             ?>
         </p>
         <div>
-            <div>
+            <div class="button">
                 <button>
                     luister
                 </button>
@@ -22,6 +22,63 @@
                 echo $single['time'];
                 ?>
             </p>
+            <div class="foto">
+            <?php
+                echo "<img src='" . $single['img'] . "'>";
+            ?>
+        </div>
         </div>
     </div>
 </div>
+
+<style>
+
+    .foto{
+        whidth: 10rem;
+        height: 10rem;
+        background: red;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+
+    button{
+        background: #a4b17a;
+        width: 8rem;
+        transform: scale();
+        transition: 1.5s;
+    }
+
+    button:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+        background: #a4b17a;
+    }
+
+    .card{
+        width: 10rem;
+        height: 20rem;
+        background: #bac49a;
+        border-radius: 2rem;
+    }
+
+    p{
+        display: flex;
+        justify-content: center;
+    }
+
+    div > div > p{
+        color: black;
+    }
+</style>

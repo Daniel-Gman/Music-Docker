@@ -27,3 +27,20 @@ include('../source/data.php');
 </div>
     
 </body>
+
+<style>
+
+        body{
+            background: #e5edca;
+        }
+
+    .blokjes{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+</style>
