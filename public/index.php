@@ -8,7 +8,6 @@ include('../source/data.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <?php
@@ -31,11 +30,11 @@ function modal(songName) {
     const artiest_duur = document.getElementById(songName + "__times");
     const artiest_image = document.getElementById(songName + "__img");
 
-    naam.innerText = artiest_naam.innerText;
-    song.innerText = artiest_song.innerText;
-    genre.innerText = artiest_genre.innerText;
-    year.innerText = artiest_datum.innerText;
-    time.innerText = artiest_duur.innerText;
+    naam.innerText = 'Naam: ' + artiest_naam.innerText;
+    song.innerText = 'nummer: ' + artiest_song.innerText;
+    genre.innerText = 'genre: ' + artiest_genre.innerText;
+    year.innerText = 'jaar: ' + artiest_datum.innerText;
+    time.innerText = 'lengte: ' + artiest_duur.innerText;
     image.src = artiest_image.src;
 }
 </script>
@@ -50,7 +49,6 @@ function modal(songName) {
                 <p id="datum">datum</p>
                 <p id="duur">duur</p>
             <div class="button__card">
-        <button onClick="window.location.href = 'info.php'">Full detail</button>
     </div>
 </div>
 <img id="image" src="img/L8owPX.jpg" alt="">

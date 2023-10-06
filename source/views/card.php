@@ -13,6 +13,19 @@
                     
                 </button>
             </div>
+            <div class="button__card">
+            <button onClick="window.location.href = 'info.php?song=<?php echo $single['song'];
+             ?>&artist=<?php echo $single['artist'];
+              ?>&genre=<?php echo $single['genre'];
+               ?>&year=<?php echo $single['year'];
+                ?>&time=<?php echo $single['time'];
+                 ?>&img=<?php echo $single['img'];
+                  ?>'">
+                Info Pagina
+            </button>
+
+            </div>
+            
             <p class="" id="<?php echo $single['song']?>__years"><?php echo $single['year']?></p>
             <p class="" id="<?php echo $single['song']?>__times"><?php echo $single['time']?></p>
             <div class="foto">
@@ -23,7 +36,6 @@
         </div>
     </div>
 </div>
-</body>
 
 <style>
 
@@ -45,6 +57,7 @@
     .button__card{
         display: flex;
         justify-content: center;
+        margin-bottom: 1rem;
     }
 
     button{
@@ -65,7 +78,7 @@
         height: 20rem;
         background: #bac49a;
         border-radius: 2rem;
-        margin-bottom: 3rem;
+        margin-bottom: 5rem;
     }
 
     p{

@@ -10,7 +10,7 @@
   <p class="title">Kies uit:</p>
 </form></div>
 <div class="dropdown">
-<label for="artistName">Choose a artist name:</label> 
+<label for="artistName">Choose an artist name:</label> 
     <select name="artist-names" id="artist-names"> 
         <option value="Juice Wrld">Juice Wrld</option> 
         <option value="Travis Scott">Travis Scott</option> 
