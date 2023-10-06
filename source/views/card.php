@@ -10,9 +10,12 @@
             ?>
         </p>
         <div>
-            <div class="button">
-                <button>
-                    luister
+            <div class="button__card">
+                <button id="button__js" onClick="console.log('<?php echo $single['artist']; ?>')">
+                    <?php
+                    echo $single['button']
+                    ?>
+                    
                 </button>
             </div>
             <p>
@@ -48,7 +51,7 @@
         border-bottom-right-radius: 2rem;
     }
 
-    .button{
+    .button__card{
         display: flex;
         justify-content: center;
     }

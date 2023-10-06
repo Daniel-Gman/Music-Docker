@@ -16,6 +16,7 @@ include('../source/data.php');
 <?php
     include('../source/views/menu.php');
 ?>
+
 <div class="container">
     <div class="blokjes">
         <?php
