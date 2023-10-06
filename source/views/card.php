@@ -1,5 +1,6 @@
 <div class="card">
     <div>
+        <p id="<?php echo $single['artist']?>__name"><?php echo $single['artist']?></p>
         <p>
             <?php
             echo $single['artist'];
@@ -11,7 +12,7 @@
         </p>
         <div>
             <div class="button__card">
-                <button id="button__js" onClick="console.log('<?php echo $single['artist']; ?>')">
+                <button id="button__js" onClick="balls('<?php echo $single['artist']; ?>')">
                     <?php
                     echo $single['button']
                     ?>

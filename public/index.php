@@ -2,8 +2,6 @@
 require_once('../source/config.php');
 include('../source/data.php');
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,24 +9,29 @@ include('../source/data.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-    <script defer src="main.js"></script>
 </head>
 <body>
 <?php
     include('../source/views/menu.php');
 ?>
 
+<script>
+function balls(artist) {
+    const naam = document.getElementById("naam");
+    naam.innerText = artist;
+}
+</script>
 
 <div class="container">
 <figure>
 <p>Browse ur favorite song:</p>
 <div>
-<h1>naam</h1>
-<p>song</p>
-<p>genre</p>
-<p>datum</p>
-<p>duur</p>
-<p>ander nummer</p>
+<h1 id="naam">naam</h1>
+<p id="song">song</p>
+<p id="genre">genre</p>
+<p id="datum">datum</p>
+<p id="duur">duur</p>
+<p id="ander">ander nummer</p>
 </div>
 <img src="img/best.webp" alt="">
 </figure>
@@ -43,6 +46,7 @@ include('../source/data.php');
 
 </body>
 
+
 <style>
 
     body{
@@ -55,7 +59,7 @@ include('../source/data.php');
         width: 40rem;
         height: 40rem;
         position: relative;
-        
+        border-radius: 5rem;
     }
 
     figure > div{
