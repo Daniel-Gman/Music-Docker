@@ -50,7 +50,7 @@ function modal(songName) {
                 <p id="datum">datum</p>
                 <p id="duur">duur</p>
             <div class="button__card">
-        <button>Full detail</button>
+        <button onClick="window.location.href = 'info.php'">Full detail</button>
     </div>
 </div>
 <img id="image" src="img/L8owPX.jpg" alt="">
