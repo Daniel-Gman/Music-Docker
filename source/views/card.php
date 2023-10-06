@@ -1,34 +1,23 @@
 <div class="card">
     <div>
-        <p id="<?php echo $single['artist']?>__name"><?php echo $single['artist']?></p>
-        <p>
-            <?php
-            echo $single['artist'];
-            echo '</br>';
-            echo $single['title'];
-            echo '</br>';
-            echo $single['genre'];
-            ?>
-        </p>
+        <p class="" id="<?php echo $single['song']?>__name"><?php echo $single['artist']?></p>
+        <p class="" id="<?php echo $single['song']?>__song"><?php echo $single['song']?></p>
+        <p class="" id="<?php echo $single['song']?>__genres"><?php echo $single['genre']?></p>
+       
         <div>
             <div class="button__card">
-                <button id="button__js" onClick="balls('<?php echo $single['artist']; ?>')">
+                <button id="button__js" onClick="modal('<?php echo $single['song']; ?>')">
                     <?php
                     echo $single['button']
                     ?>
                     
                 </button>
             </div>
-            <p>
-                <?php 
-                echo $single['year'];
-                echo '</br>';
-                echo $single['time'];
-                ?>
-            </p>
+            <p class="" id="<?php echo $single['song']?>__years"><?php echo $single['year']?></p>
+            <p class="" id="<?php echo $single['song']?>__times"><?php echo $single['time']?></p>
             <div class="foto">
             <?php
-                echo "<img src='" . $single['img'] . "'>";
+                echo "<img id='" . $single['song'] . "__img' src='" . $single['img'] . "'>";
             ?>
         </div>
         </div>
@@ -39,7 +28,7 @@
 <style>
 
     .foto{
-        whidth: 10rem;
+        width: 10rem;
         height: 10rem;
         background: red;
         border-bottom-left-radius: 2rem;
@@ -76,6 +65,7 @@
         height: 20rem;
         background: #bac49a;
         border-radius: 2rem;
+        margin-bottom: 3rem;
     }
 
     p{

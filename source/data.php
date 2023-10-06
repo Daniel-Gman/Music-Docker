@@ -3,7 +3,7 @@
 $library = [
     $item_1 = [
         'artist' => 'Juice Wrld', 
-        'title' => 'Wishing Well', 
+        'song' => 'Wishing Well', 
         'genre' => 'Hip-Hop','rap', 
         'year' => 2020,
         'time' => '3:14',
@@ -12,7 +12,7 @@ $library = [
     ],
     $item_2 = [
         'artist' => 'Travis Scott', 
-        'title' => 'Goosebumps', 
+        'song' => 'Goosebumps', 
         'genre' => 'Hip-Hop','rap', 
         'year' => 2016,
         'time' => '4:03',
@@ -21,7 +21,7 @@ $library = [
     ],
     $item_3 = [
         'artist' => 'Tyler the creator', 
-        'title' => 'See you again', 
+        'song' => 'See you again', 
         'genre' => 'Hip-Hop','rap', 
         'year' => 2017,
         'time' => '3:00',
@@ -30,7 +30,7 @@ $library = [
     ],
     $item_4 = [
         'artist' => 'Juice Wrld', 
-        'title' => 'Burn', 
+        'song' => 'Burn', 
         'genre' => 'Hip-Hop','rap', 
         'year' => 2021,
         'time' => '3:37',
@@ -39,7 +39,7 @@ $library = [
     ],
     $item_5 = [
         'artist' => 'Travis Scott', 
-        'title' => 'MELTDOWN', 
+        'song' => 'MELTDOWN', 
         'genre' => 'Hip-Hop','rap', 
         'year' => 2023,
         'time' => '4:06',
@@ -48,7 +48,7 @@ $library = [
     ],
     $item_6 = [
         'artist' => 'Tyler the creator', 
-        'title' => 'EARFQUAKE', 
+        'song' => 'EARFQUAKE', 
         'genre' => 'Hip-Hop','rap', 
         'year' => 2019,
         'time' => '3:10',
@@ -57,7 +57,7 @@ $library = [
     ],
     $item_7 = [
         'artist' => 'Juice Wrld', 
-        'title' => 'Lucid Dreams', 
+        'song' => 'Lucid Dreams', 
         'genre' => 'Hip-Hop','rap', 
         'year' => 2018,
         'time' => '3:59',
@@ -66,7 +66,7 @@ $library = [
     ],
     $item_8 = [
         'artist' => 'Travis Scott', 
-        'title' => 'K-POP', 
+        'song' => 'K-POP', 
         'genre' => 'Hip-Hop', 'Pop', 
         'year' => 2023,
         'time' => '3:05',
@@ -75,7 +75,7 @@ $library = [
     ],
     $item_9 = [
         'artist' => 'Tyler the creator',
-        'title' => 'BEST INTEREST', 
+        'song' => 'BEST INTEREST', 
         'genre' => 'Hip-Hop','rap', 
         'year' => 2020,
         'time' => '2:07',
@@ -84,7 +84,7 @@ $library = [
     ],
     $item_10 = [
         'artist' => 'Juice Wrld', 
-        'title' => 'Robbery', 
+        'song' => 'Robbery', 
         'genre' => 'Hip-Hop','rap', 
         'year' => 2019,
         'time' => '4:00',

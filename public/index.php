@@ -16,24 +16,44 @@ include('../source/data.php');
 ?>
 
 <script>
-function balls(artist) {
+function modal(songName) {
     const naam = document.getElementById("naam");
-    naam.innerText = artist;
+    const song = document.getElementById("song");
+    const genre = document.getElementById("genre");
+    const year = document.getElementById("datum");
+    const time = document.getElementById("duur");
+    const image = document.getElementById("image");
+
+    const artiest_naam = document.getElementById(songName + "__name");
+    const artiest_song = document.getElementById(songName + "__song");
+    const artiest_genre = document.getElementById(songName + "__genres");
+    const artiest_datum = document.getElementById(songName + "__years");
+    const artiest_duur = document.getElementById(songName + "__times");
+    const artiest_image = document.getElementById(songName + "__img");
+
+    naam.innerText = artiest_naam.innerText;
+    song.innerText = artiest_song.innerText;
+    genre.innerText = artiest_genre.innerText;
+    year.innerText = artiest_datum.innerText;
+    time.innerText = artiest_duur.innerText;
+    image.src = artiest_image.src;
 }
 </script>
 
 <div class="container">
-<figure>
-<p>Browse ur favorite song:</p>
-<div>
-<h1 id="naam">naam</h1>
-<p id="song">song</p>
-<p id="genre">genre</p>
-<p id="datum">datum</p>
-<p id="duur">duur</p>
-<p id="ander">ander nummer</p>
+    <figure>
+        <p>Browse ur favorite song:</p>
+            <div>
+                <h1 id="naam">naam</h1>
+                <p id="song">song</p>
+                <p id="genre">genre</p>
+                <p id="datum">datum</p>
+                <p id="duur">duur</p>
+            <div class="button__card">
+        <button>Full detail</button>
+    </div>
 </div>
-<img src="img/best.webp" alt="">
+<img id="image" src="img/L8owPX.jpg" alt="">
 </figure>
     <div class="blokjes">
         <?php
@@ -55,7 +75,7 @@ function balls(artist) {
 
     
     figure{
-        background:#a4b17a;
+        background: #bac49a;
         width: 40rem;
         height: 40rem;
         position: relative;
@@ -79,7 +99,7 @@ function balls(artist) {
 
     figure > img{
         width: 100%;
-        height: 10rem;
+        height: 20rem;
         object-fit: cover;
         position: absolute;
         bottom: 0px;
