@@ -19,6 +19,7 @@
               ?>&genre=<?php echo $single['genre'];
                ?>&year=<?php echo $single['year'];
                 ?>&time=<?php echo $single['time'];
+                ?>&bio=<?php echo $single['bio'];
                  ?>&img=<?php echo $single['img'];
                   ?>'">
                 Info Pagina
@@ -28,6 +29,7 @@
             
             <p class="" id="<?php echo $single['song']?>__years"><?php echo $single['year']?></p>
             <p class="" id="<?php echo $single['song']?>__times"><?php echo $single['time']?></p>
+            <p class=" bio" id="<?php echo $single['song']?>__bios"><?php echo $single['bio']?></p>
             <div class="foto">
             <?php
                 echo "<img id='" . $single['song'] . "__img' src='" . $single['img'] . "'>";
@@ -38,6 +40,10 @@
 </div>
 
 <style>
+
+    .bio{
+        display: none;
+    }
 
     .foto{
         width: 10rem;

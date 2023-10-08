@@ -8,7 +8,8 @@ $library = [
         'year' => 2020,
         'time' => '3:14',
         'img' => 'img/Wishingwell.png',
-        'button' => 'luister'
+        'button' => 'luister',
+        'bio' => 'Cigarets, All girls are the same, godzilla',
     ],
     $item_2 = [
         'artist' => 'Travis Scott', 
@@ -17,7 +18,8 @@ $library = [
         'year' => 2016,
         'time' => '4:03',
         'img' => 'img/goosebumps.png',
-        'button' => 'luister'
+        'button' => 'luister',
+        'bio' => 'I KNOW?, Sicko mode, Skeletons',    
     ],
     $item_3 = [
         'artist' => 'Tyler the creator', 
@@ -26,7 +28,8 @@ $library = [
         'year' => 2017,
         'time' => '3:00',
         'img' => 'img/seeuagain.png',
-        'button' => 'luister'
+        'button' => 'luister',
+        'bio' => 'I think, Running out of time, Puppet',    
     ],
     $item_4 = [
         'artist' => 'Juice Wrld', 
@@ -35,7 +38,8 @@ $library = [
         'year' => 2021,
         'time' => '3:37',
         'img' => 'img/burn.png',
-        'button' => 'luister'
+        'button' => 'luister',
+        'bio' => 'Burn, All girls are the same, Lucid dreams',
     ],
     $item_5 = [
         'artist' => 'Travis Scott', 
@@ -44,7 +48,8 @@ $library = [
         'year' => 2023,
         'time' => '4:06',
         'img' => 'img/meltdown.jpg',
-        'button' => 'luister'
+        'button' => 'luister',
+        'bio' => 'I KNOW?, Sicko mode, Skeletons',    
     ],
     $item_6 = [
         'artist' => 'Tyler the creator', 
@@ -53,7 +58,8 @@ $library = [
         'year' => 2019,
         'time' => '3:10',
         'img' => 'img/earfquake.png',
-        'button' => 'luister'
+        'button' => 'luister',
+        'bio' => 'I think, Running out of time, Puppet',    
     ],
     $item_7 = [
         'artist' => 'Juice Wrld', 
@@ -62,7 +68,8 @@ $library = [
         'year' => 2018,
         'time' => '3:59',
         'img' => 'img/lucid.png',
-        'button' => 'luister'
+        'button' => 'luister',
+        'bio' => 'Burn, All girls are the same, Lucid dreams',
     ],
     $item_8 = [
         'artist' => 'Travis Scott', 
@@ -71,7 +78,8 @@ $library = [
         'year' => 2023,
         'time' => '3:05',
         'img' => 'img/kpop.png',
-        'button' => 'luister'
+        'button' => 'luister',
+        'bio' => 'I KNOW?, Sicko mode, Skeletons',    
     ],
     $item_9 = [
         'artist' => 'Tyler the creator',
@@ -80,7 +88,8 @@ $library = [
         'year' => 2020,
         'time' => '2:07',
         'img' => 'img/best.webp',
-        'button' => 'luister'
+        'button' => 'luister',
+        'bio' => 'I think, Running out of time, Puppet',    
     ],
     $item_10 = [
         'artist' => 'Juice Wrld', 
@@ -89,7 +98,8 @@ $library = [
         'year' => 2019,
         'time' => '4:00',
         'img' => 'img/robbery.jpg',
-        'button' => 'luister'
+        'button' => 'luister',
+        'bio' => 'Burn, All girls are the same, Lucid dreams',
     ]
 ];
 

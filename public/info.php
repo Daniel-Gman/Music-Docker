@@ -6,6 +6,8 @@ $genre = $_GET['genre'];
 $year = $_GET['year'];
 $time = $_GET['time'];
 $img = $_GET['img'];
+$bio = $_GET['bio'];
+
 ?>
 
 <style>
@@ -30,12 +32,13 @@ include 'css/style.css';
         <p>Year: <?php echo $year; ?></p>
         <p>Time: <?php echo $time; ?></p>
         <div>
-        <img class="foto" src="<?php echo $img; ?>">
+            <p>Different songs:</p>
+        <p class="bio"><?php echo $bio; ?> </p>
         </div>
     </figure>
     <figure class="figure__rechts">
         <p class="figure__p">
-            test
+            <img class="foto" src="<?php echo $img; ?>">
         </p>
 </figure></div>
    
